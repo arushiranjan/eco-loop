@@ -1,0 +1,20 @@
+# Eco-Loop Building Agents — Backend dependencies
+ 
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.0
+sqlalchemy==2.0.36
+python-dotenv==1.1.1
+ 
+# Part 1 — Real EnergyPlus (CSV parsing)
+pandas==2.2.3
+ 
+# Part 2 — Real FastMCP server
+fastmcp==2.3.4
+mcp==1.9.4
+ 
+# Part 3 — Real LangGraph
+langgraph==0.2.62
+langchain-core==0.3.29
+ 
